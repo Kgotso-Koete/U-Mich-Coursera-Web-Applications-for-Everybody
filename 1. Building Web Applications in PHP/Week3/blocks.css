@@ -1,0 +1,63 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div{
+  width:25%;
+  height: 100px;
+  margin:5px;
+  padding:5px;
+  border: 5px solid #334CAD;
+  vertical-align: middle;
+}
+
+a{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #334CAD;
+  border: 1px solid #334CAD;
+  padding:5px;
+}
+
+#three{
+    position:fixed;
+    border-color: orange;
+    top:20px;
+    bottom: 0px;
+    left: 100px;
+    right: 0px;
+}
+
+#two{
+    position:fixed;
+    border-color: green;
+    top:20px;
+    bottom: 0px;
+    left: 900px;
+    right: 0px;
+}
+
+#four{
+    position:fixed;
+    border-color: yellow;
+    bottom: 20px;
+    left: 100px;
+    right: 0px;
+}
+
+#one{
+    position:fixed;
+    border-color: blue;
+    bottom: 20px;
+    left: 900px;
+    right: 0px;
+}
+
+#link{
+    position:fixed;
+    top:30px;
+    left: 575px;
+    right: 0px;
+}
