@@ -1,0 +1,15 @@
+body {
+  padding-top: 10px;
+}
+.starter-template {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+h1:#heading {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+}

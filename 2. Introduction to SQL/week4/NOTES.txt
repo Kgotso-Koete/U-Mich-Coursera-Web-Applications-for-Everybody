@@ -1,0 +1,19 @@
+To get started run the following SQL commands:
+
+CREATE DATABASE misc;
+GRANT ALL ON misc.* TO 'root'@'localhost' IDENTIFIED BY 'root';
+GRANT ALL ON misc.* TO 'root'@'127.0.0.1' IDENTIFIED BY 'root';
+
+USE misc; (Or select misc in phpMyAdmin)
+
+CREATE TABLE users (
+   user_id INTEGER NOT NULL
+     AUTO_INCREMENT KEY,
+   name VARCHAR(128),
+   email VARCHAR(128),
+   password VARCHAR(128),
+   INDEX(email)
+) ENGINE=InnoDB CHARSET=utf8;
+
+INSERT INTO users (name,email,password) VALUES ('Kgotso','kgotso.koete@equinoxxadvisory.com','password');
+INSERT INTO users (name,email,password) VALUES ('Glenn','gg@umich.edu','456');
